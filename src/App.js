@@ -1,22 +1,17 @@
-import logo from './logo.svg';
 import './App.css';
+import { BrowserRouter as Router, Switch, Route} from 'react-router-dom';
+import Navbar from './components/NavBar/Navbar';
+import Inicio from './components/Pages/Inicio';
+import Contacto from './components/Pages/Contacto';
+import Libros from './components/Pages/Libros';
+
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>Ignacio Arguello</p>
-        <p>Ebooks Store</p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <Router>
+        <Navbar/>
+      </Router>
     </div>
   );
 }
