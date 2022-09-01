@@ -1,6 +1,5 @@
 import ItemCount  from "../ItemCount/ItemCount";
 import React, {useState, useEffect}  from "react";
-import Title from "../Title";
 import ItemList from "../ItemList/ItemList";
 
 
@@ -11,7 +10,7 @@ const books = [
   
 ]
 
-export const ItemListContainer = () => {
+export const ItemListContainer = ({ greeting}) => {
 
   const [data, setData] = useState([])
 
@@ -31,7 +30,9 @@ export const ItemListContainer = () => {
 
   return (
     <>
-    <Title greeting='Bienvenido' />
+    <div>
+      <h1>{greeting.title}</h1>
+    </div>
     <ItemCount initial={1} stock={5} onAdd={onAdd}/>
     <ItemList data={data} />
     </>

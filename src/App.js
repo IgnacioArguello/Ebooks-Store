@@ -8,11 +8,14 @@ import Libros from './components/Pages/Libros';
 
 
 function App() {
+  const greeting = {
+    title: "Bienvenidos"
+  }
   return (
     <div className="App">
       <Router>
         <Navbar/>
-        <ItemListContainer/>
+        <ItemListContainer greeting={greeting}/>
       </Router>
     </div>
   );
