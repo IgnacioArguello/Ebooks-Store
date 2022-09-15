@@ -1,7 +1,8 @@
-import React from "react";
+import React, {useContext} from "react";
 
 
 export const CartWidget = () => {
+
   return (
     <i className="bi bi-cart3"></i>
   )
