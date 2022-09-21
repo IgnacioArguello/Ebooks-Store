@@ -4,10 +4,10 @@ import { useParams } from "react-router-dom";
 
 
 const books = [
-  {id: 1, image: "https://images.cdn3.buscalibre.com/fit-in/360x360/11/6f/116f01c74c7853cbcfc4f6da78d154be.jpg", category:"fantasia",title: "Castillo Ambulante(Click para mas detalles)" },
-  {id: 2, image: "https://images.cdn3.buscalibre.com/fit-in/360x360/ce/e6/cee6ef96dad70d3f599b953f0e50afc7.jpg", category:"fantasia",title: "Harry Potter(Click para mas detalles)" },
-  {id: 3, image: "https://images.cdn1.buscalibre.com/fit-in/360x360/19/6b/196b0eda62be160160af64d0dfda3eee.jpg", category:"medieval",title: "El Imperio Final(Click para mas detalles)" },
-  {id: 4, image: "https://www.novelashistoricas.com/wp-content/uploads/2018/05/Fuego-hierro-y-sangre-de-Theodore-Brun-Novelas-hist%C3%B3ricas-medievales-sobre-vikingos.jpg", category:"medieval",title: "Fuego, Hierro y Sangre (Click para mas detalles)" },
+  {id: 1, image: "https://images.cdn3.buscalibre.com/fit-in/360x360/11/6f/116f01c74c7853cbcfc4f6da78d154be.jpg", category:"fantasia",title: "Castillo Ambulante(Click para mas detalles)", price: "800", },
+  {id: 2, image: "https://images.cdn3.buscalibre.com/fit-in/360x360/ce/e6/cee6ef96dad70d3f599b953f0e50afc7.jpg", category:"fantasia",title: "Harry Potter(Click para mas detalles)", price: "900", },
+  {id: 3, image: "https://images.cdn1.buscalibre.com/fit-in/360x360/19/6b/196b0eda62be160160af64d0dfda3eee.jpg", category:"medieval",title: "El Imperio Final(Click para mas detalles)", price: "700", },
+  {id: 4, image: "https://www.novelashistoricas.com/wp-content/uploads/2018/05/Fuego-hierro-y-sangre-de-Theodore-Brun-Novelas-hist%C3%B3ricas-medievales-sobre-vikingos.jpg", category:"medieval",title: "Fuego, Hierro y Sangre (Click para mas detalles)", price: "750", },
   
 ]
 
