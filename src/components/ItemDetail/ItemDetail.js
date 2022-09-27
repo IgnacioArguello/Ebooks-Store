@@ -19,8 +19,9 @@ export const ItemDetail = ({data}) => {
             <img className='detail_image' src={data.image} alt="" />
             <div className="content">
                 <h1>{data.title}</h1>
-                <h3>{data.author}</h3>
-                <h3>{data.price}</h3>
+                <h3> Autor: {data.author}</h3>
+                <h3> Precio: ${data.price}</h3>
+                <h3> Stock: {data.stock}</h3>
                 <p>{data.description}</p>
                 {
                   goToCart
