@@ -6,9 +6,6 @@ import ItemListContainer from './components/ItemListContainer';
 import ItemDetailContainer from './components/ItemDetailContainer/ItemDetailContainer';
 import Cart from './components/Cart/Cart';
 import CartProvider from './context/CartContext';
-import Inicio from './components/Pages/Inicio';
-import Contacto from './components/Pages/Contacto';
-import Libros from './components/Pages/Libros';
 
 
 

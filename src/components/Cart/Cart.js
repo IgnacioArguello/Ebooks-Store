@@ -22,7 +22,7 @@ const Cart = () => {
     const db =  getFirestore ();
     const ordersCollection = collection(db, 'orders');
     addDoc(ordersCollection, order)
-    .then (({id})=> console.log(id))
+    .then (({id})=> alert ("Gracias por su compra! su id de transaccion es: "+id))
   }
 
   if (cart.length === 0) {
