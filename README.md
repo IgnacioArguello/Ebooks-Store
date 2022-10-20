@@ -1,4 +1,6 @@
-# Getting Started with Create React App
+# Ebooks-Store
+
+Ebooks-Store es un proyecto hecho en ReactJS donde simulamos comprar diferentes libros/novelas.
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 

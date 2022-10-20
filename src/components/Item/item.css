@@ -1,6 +1,13 @@
 .book {
     display:block;
-    width: 300px;
+    width: 190px;
+    text-decoration: none;
+    color: black;
+    float: left;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
 }
 
 .book img {
@@ -8,3 +15,4 @@
     height: 100%;
     object-fit: cover;
 }
+

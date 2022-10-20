@@ -1,5 +1,6 @@
 import Item from "../Item/Item";
 import React from "react";
+import './itemList.css';
 
 
 const ItemList = ({data= []}) => {

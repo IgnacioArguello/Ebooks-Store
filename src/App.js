@@ -1,6 +1,6 @@
 import './App.css';
 import React from 'react';
-import { BrowserRouter as Router, Switch,Routes,Route} from 'react-router-dom';
+import { BrowserRouter as Router,Routes,Route} from 'react-router-dom';
 import Navbar from './components/NavBar/Navbar';
 import ItemListContainer from './components/ItemListContainer';
 import ItemDetailContainer from './components/ItemDetailContainer/ItemDetailContainer';
@@ -11,7 +11,7 @@ import CartProvider from './context/CartContext';
 
 function App() {
   const greeting = {
-    title: "Bienvenidos"
+    title: "Bienvenido a nuestro catálogo"
   }
   return (
     <div className="App">
